@@ -8,10 +8,12 @@ header {
 
 h1 {
     color: blue;
-    background-color :black;
 }
 
 h2 {
     text-align: center;
 
 }
+ .invisible {
+    display: none;
+ }

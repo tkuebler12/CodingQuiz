@@ -16,25 +16,31 @@
 </nav>
   <div id="codingQuiz">
     <h1>Coding Quiz</h1>
-
+  
   <div class="container">
     <section id="begin-quiz">
       <h2>Click Below to Begin Quiz</h2>
 
     </section>
 
-    <button type="button" class="btn btn-primary btn-lg">Begin!</button>
+    <button id="startbutton" type="button" class="btn btn-primary btn-lg">Begin!</button>
     </div>
-    <div class="invisible" id="quizQuestions">
+  </div>
+    <div id="quizQuestions">
       <h2 id="Title"></h2>
       <div id="quizAnswers">
       </div>
-    </div>
+    
 
     <div class="invisible" id="endingScreen">
       <h2>Game Complete</h2>
       <p>Your final score is: <span id="playerfinalScore"></span></p>
+      <p>Enter your initials here: <input type="text" id="initials"></p>
+      <button id="submit">Submit</button>
     </div>
-  <script src="scripts.js"></script> 
+    <div id="response"></div>
+  <script src="script.js"></script> 
 
 </body>
+
+</html>

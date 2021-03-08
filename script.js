@@ -23,7 +23,7 @@ var questions = [
     },
     {
         questionTitle: "How can you style an HTML page?", 
-        answers: ["Javascript","MySQL","CSS","Bootstrap", "Materialize"],
+        answers: ["Javascript","MySQL","CSS","Node", "Express"],
         answertoQuestion: "CSS"
     },
     {
@@ -31,16 +31,16 @@ var questions = [
         answers: ["GitHub","GitBash","Bootstrap","CSS", "Google"],
         answertoQuestion: "Bootstrap"
     },
-    // {
-    //     questionTitle: "", 
-    //     answers: ["1","2","3","4", "5"],
-    //     answertoQuestion: "1"
-    // },
-    // {
-    //     questionTitle: "first question", 
-    //     answers: ["1","2","3","4", "5"],
-    //     answertoQuestion: "1"
-    // }
+    {
+        questionTitle: "Which of these is a Javascript library?", 
+        answers: ["MySQL","Node","Ajax","jQuery", "Python"],
+        answertoQuestion: "jQuery"
+    },
+    {
+        questionTitle: "What is the name for information stored to your computer?", 
+        answers: ["Hard Drive","Software","Battery","Desktop", "Local Storage"],
+        answertoQuestion: "Local Storage"
+    }
 ]
 // beginQuiz();
 function beginQuiz(){

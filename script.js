@@ -55,6 +55,7 @@ function timer() {
     quizTime--;
     timerEl.textContent = quizTime;
     if (quizTime <=0) {
+        endQuiz();
     }
 }
 function getQuizQuestion() {
